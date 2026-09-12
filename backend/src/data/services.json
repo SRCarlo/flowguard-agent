@@ -1,0 +1,30 @@
+[
+  {
+    "name": "checkout-api",
+    "version": "v2.14.6",
+    "status": "healthy",
+    "team": "payments",
+    "environment": "production"
+  },
+  {
+    "name": "payment-api",
+    "version": "v4.8.2",
+    "status": "healthy",
+    "team": "payments",
+    "environment": "production"
+  },
+  {
+    "name": "inventory-api",
+    "version": "v3.2.1",
+    "status": "healthy",
+    "team": "inventory",
+    "environment": "production"
+  },
+  {
+    "name": "auth-api",
+    "version": "v5.1.4",
+    "status": "healthy",
+    "team": "identity",
+    "environment": "production"
+  }
+]

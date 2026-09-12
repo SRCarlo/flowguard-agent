@@ -1,0 +1,58 @@
+{
+    "checkout-api": [
+        {
+            "timestamp": "2026-09-11T10:36:12Z",
+            "level": "ERROR",
+            "message": "Payment validation failed: unexpected null value",
+            "version": "v2.14.7"
+        },
+        {
+            "timestamp": "2026-09-11T10:37:48Z",
+            "level": "ERROR",
+            "message": "NullPointerException in payment_validation.py:184",
+            "version": "v2.14.7"
+        },
+        {
+            "timestamp": "2026-09-11T10:38:21Z",
+            "level": "ERROR",
+            "message": "Checkout request failed with internal server error",
+            "version": "v2.14.7"
+        },
+        {
+            "timestamp": "2026-09-11T10:39:02Z",
+            "level": "ERROR",
+            "message": "Unable to validate payment request",
+            "version": "v2.14.7"
+        },
+        {
+            "timestamp": "2026-09-11T10:40:00Z",
+            "level": "CRITICAL",
+            "message": "Error rate threshold exceeded: 42.1%",
+            "version": "v2.14.7"
+        }
+    ],
+    "payment-api": [
+        {
+            "timestamp": "2026-09-11T10:39:00Z",
+            "level": "INFO",
+            "message": "Payment processing healthy",
+            "version": "v4.8.2"
+        }
+    ],
+    "inventory-api": [
+        {
+            "timestamp": "2026-09-11T10:39:00Z",
+            "level": "INFO",
+            "message": "Inventory service healthy",
+            "version": "v3.2.1"
+        }
+    ],
+    "auth-api": [
+        {
+            "timestamp": "2026-09-11T10:39:00Z",
+            "level": "INFO",
+            "message": "Authentication service healthy",
+            "version": "v5.1.4"
+        }
+    ]
+}

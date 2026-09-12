@@ -1,0 +1,42 @@
+{
+    "checkout-api": {
+        "service": "checkout-api",
+        "error_rate": 42.1,
+        "latency_ms": 8420,
+        "requests_per_minute": 12800,
+        "cpu_percent": 91,
+        "memory_percent": 78,
+        "status": "critical",
+        "timestamp": "2026-09-11T10:40:00Z"
+    },
+    "payment-api": {
+        "service": "payment-api",
+        "error_rate": 0.7,
+        "latency_ms": 310,
+        "requests_per_minute": 9400,
+        "cpu_percent": 42,
+        "memory_percent": 55,
+        "status": "healthy",
+        "timestamp": "2026-09-11T10:40:00Z"
+    },
+    "inventory-api": {
+        "service": "inventory-api",
+        "error_rate": 0.4,
+        "latency_ms": 280,
+        "requests_per_minute": 7200,
+        "cpu_percent": 39,
+        "memory_percent": 49,
+        "status": "healthy",
+        "timestamp": "2026-09-11T10:40:00Z"
+    },
+    "auth-api": {
+        "service": "auth-api",
+        "error_rate": 0.3,
+        "latency_ms": 190,
+        "requests_per_minute": 8300,
+        "cpu_percent": 35,
+        "memory_percent": 44,
+        "status": "healthy",
+        "timestamp": "2026-09-11T10:40:00Z"
+    }
+}

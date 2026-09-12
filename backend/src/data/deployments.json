@@ -1,0 +1,40 @@
+{
+    "checkout-api": [
+        {
+            "version": "v2.14.7",
+            "deployed_at": "2026-09-11T10:34:00Z",
+            "deployed_by": "release-bot",
+            "status": "active"
+        },
+        {
+            "version": "v2.14.6",
+            "deployed_at": "2026-09-10T15:20:00Z",
+            "deployed_by": "release-bot",
+            "status": "previous"
+        }
+    ],
+    "payment-api": [
+        {
+            "version": "v4.8.2",
+            "deployed_at": "2026-09-10T12:00:00Z",
+            "deployed_by": "release-bot",
+            "status": "active"
+        }
+    ],
+    "inventory-api": [
+        {
+            "version": "v3.2.1",
+            "deployed_at": "2026-09-09T09:30:00Z",
+            "deployed_by": "release-bot",
+            "status": "active"
+        }
+    ],
+    "auth-api": [
+        {
+            "version": "v5.1.4",
+            "deployed_at": "2026-09-08T11:15:00Z",
+            "deployed_by": "release-bot",
+            "status": "active"
+        }
+    ]
+}
